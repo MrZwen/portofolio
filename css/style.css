@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* Background Color */
+body{
+  background-color: #272727;
+}
+
+/* Navbar */
+nav{
+  background-color: #272727;
+}
+
+.box-nav{
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.logo{
+  font-family: "Sora";
+  font-size: 24px;
+}
+
+#nav-list a {
+  color: #c9c9c9;
+}
+
+#nav-list a:hover{
+  color: #ffffff;
+}
+
+/* Konten */
+.content{
+  margin-top: 94px;
+}
+
+/* About */
+.about{
+  width: 94%;
+}
+
+.desc{
+  font-family: 'Sora';
+  color: #4ca9ff;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+/* Biography */
+.biography{
+  padding-top: 3em;
+}
+
+.bio h3{
+  font-family: 'Sora';
+  font-size: 28px;
+}
+
+.bio p{
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Social Media */
+.social-media h3{
+  font-family: 'Sora';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.social-media a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.social-media a:hover{
+  color: #4ca9ff;
+}
+
+.deskripsi {
+  margin-top:100px;
+}
+
+.deskripsi h4{
+  font-family: "Sora";
+  font-size: 28px;
+}
+
+.deskripsi p{
+  line-height: 32px;
+  text-align: justify;
+}
+
+.card-custom {
+  width:45%;
+  margin-left: 5%;
+  background-color: #323443;
+}
+
+.card-icon{
+  padding: 20px;
+  position: absolute;
+  top: -30px;
+  background-color: #323443;
+}
+
+/* Skills */
+.skills{
+  padding-top: 105px;
+}
+
+.skills h3{
+  font-family: "Sora";
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.card-skill{
+  background-color: #323443;
+  height: 272px;
+}
+.card-skill i{
+  font-size: 48px;
+  margin-right: 15px;
+}
+
+.card-skill h4{
+  font-family: "Sora";
+  font-size: 28px;
+}
+
+.card-skill p{
+  text-align: justify;
+}
+
+.large-text{
+  font-size: 50px;
+}
+
+.featured-img{
+  background-color: #323443;
+  width: 556px;
+  height: 282px;
+}
+
+.panah{
+  background-color: #323232;
+  padding: 10px;
+  top: 5px;
+  right: 5px;
+  border-radius: 5px;
+}
+
+.panah-rotate {
+  rotate: -45deg;
+}
+
+.tombol{
+  background-color: #323443;
+  color: #c9c9c9;
+}
+
+.tombol:hover{
+  background-color: #275692;
+  color: #fff;
+  transition: .8s ease;
+}
+
+.footer{
+  border-top: 1px solid #fff;
+}
+
+.list-custom{
+  list-style: none;
+}
+
+#project{
+  padding-top: 90px;
+}
